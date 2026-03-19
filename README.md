@@ -4,7 +4,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 136+ Codex subagents across 10 categories.</strong>
+    <strong>The awesome collection of 137+ Codex subagents across 10 categories.</strong>
     <br />
     <br />
 </div>
@@ -13,7 +13,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-136-blue?style=flat-square)
+![Subagent Count](https://img.shields.io/badge/subagents-137-blue?style=flat-square)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 </div>
@@ -231,12 +231,13 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>07. Specialized Domains</b> — Domain-specific technology experts (12 agents)</summary>
+<summary><b>07. Specialized Domains</b> — Domain-specific technology experts (13 agents)</summary>
 
 ### [07. Specialized Domains](categories/07-specialized-domains/)
 
 - [**api-documenter**](categories/07-specialized-domains/api-documenter.toml) - API documentation specialist
 - [**blockchain-developer**](categories/07-specialized-domains/blockchain-developer.toml) - Web3 and crypto specialist
+- [**e-commerce-engineer**](categories/07-specialized-domains/e-commerce-engineer.toml) - Storefront architecture and checkout flow specialist
 - [**embedded-systems**](categories/07-specialized-domains/embedded-systems.toml) - Embedded and real-time systems expert
 - [**fintech-engineer**](categories/07-specialized-domains/fintech-engineer.toml) - Financial technology specialist
 - [**game-developer**](categories/07-specialized-domains/game-developer.toml) - Game development expert
