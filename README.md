@@ -4,7 +4,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 136+ Codex subagents across 10 categories.</strong>
+    <strong>The awesome collection of 137+ Codex subagents across 10 categories.</strong>
     <br />
     <br />
 </div>
@@ -13,7 +13,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-136-blue?style=flat-square)
+![Subagent Count](https://img.shields.io/badge/subagents-137-blue?style=flat-square)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 </div>
@@ -190,7 +190,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (12 agents)</summary>
+<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (13 agents)</summary>
 
 ### [05. Data & AI](categories/05-data-ai/)
 
@@ -206,6 +206,7 @@ DevOps, cloud, and deployment specialists.
 - [**nlp-engineer**](categories/05-data-ai/nlp-engineer.toml) - Natural language processing expert
 - [**postgres-pro**](categories/05-data-ai/postgres-pro.toml) - PostgreSQL database expert
 - [**prompt-engineer**](categories/05-data-ai/prompt-engineer.toml) - Prompt optimization specialist
+- [**rag-engineer**](categories/05-data-ai/rag-engineer.toml) - Retrieval-augmented generation pipeline specialist
 
 </details>
 

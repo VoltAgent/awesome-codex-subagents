@@ -16,3 +16,4 @@ Included agents:
 - `nlp-engineer` - Build text-heavy retrieval, labeling, and NLP workflows.
 - `postgres-pro` - Handle PostgreSQL-specific schema and planner behavior.
 - `prompt-engineer` - Improve prompts, output contracts, and prompt evaluations.
+- `rag-engineer` - Build and optimize retrieval-augmented generation pipelines.
