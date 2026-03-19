@@ -6,6 +6,7 @@ Included agents:
 
 - `business-analyst` - Clarify requirements, constraints, and acceptance criteria.
 - `content-marketer` - Shape product messaging grounded in real capability.
+- `copywriter` - Draft landing page copy, CTAs, microcopy, and ad copy with brand-voice consistency.
 - `customer-success-manager` - Translate engineering behavior into customer-impact guidance.
 - `legal-advisor` - Spot legal-risk areas in product behavior and policy-sensitive flows.
 - `product-manager` - Turn engineering and user context into product decisions.
