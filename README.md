@@ -4,7 +4,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 136+ Codex subagents across 10 categories.</strong>
+    <strong>The awesome collection of 137+ Codex subagents across 10 categories.</strong>
     <br />
     <br />
 </div>
@@ -13,7 +13,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-136-blue?style=flat-square)
+![Subagent Count](https://img.shields.io/badge/subagents-137-blue?style=flat-square)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 </div>
@@ -251,13 +251,14 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>08. Business & Product</b> — Product management and business analysis (11 agents)</summary>
+<summary><b>08. Business & Product</b> — Product management and business analysis (12 agents)</summary>
 
 ### [08. Business & Product](categories/08-business-product/)
 
 - [**business-analyst**](categories/08-business-product/business-analyst.toml) - Requirements specialist
 - [**content-marketer**](categories/08-business-product/content-marketer.toml) - Content marketing specialist
 - [**customer-success-manager**](categories/08-business-product/customer-success-manager.toml) - Customer success expert
+- [**email-marketing-specialist**](categories/08-business-product/email-marketing-specialist.toml) - Email campaign strategy and deliverability expert
 - [**legal-advisor**](categories/08-business-product/legal-advisor.toml) - Legal and compliance specialist
 - [**product-manager**](categories/08-business-product/product-manager.toml) - Product strategy expert
 - [**project-manager**](categories/08-business-product/project-manager.toml) - Project management specialist
