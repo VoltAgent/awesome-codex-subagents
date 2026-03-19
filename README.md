@@ -4,7 +4,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 136+ Codex subagents across 10 categories.</strong>
+    <strong>The awesome collection of 137+ Codex subagents across 10 categories.</strong>
     <br />
     <br />
 </div>
@@ -13,7 +13,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-136-blue?style=flat-square)
+![Subagent Count](https://img.shields.io/badge/subagents-137-blue?style=flat-square)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 </div>
@@ -139,6 +139,7 @@ Language-specific experts with deep framework knowledge.
 - [**rust-engineer**](categories/02-language-specialists/rust-engineer.toml) - Systems programming expert
 - [**spring-boot-engineer**](categories/02-language-specialists/spring-boot-engineer.toml) - Spring Boot 3+ microservices expert
 - [**sql-pro**](categories/02-language-specialists/sql-pro.toml) - Database query expert
+- [**svelte-expert**](categories/02-language-specialists/svelte-expert.toml) - Svelte 5 and SvelteKit specialist
 - [**swift-expert**](categories/02-language-specialists/swift-expert.toml) - iOS and macOS specialist
 - [**typescript-pro**](categories/02-language-specialists/typescript-pro.toml) - TypeScript specialist
 - [**vue-expert**](categories/02-language-specialists/vue-expert.toml) - Vue 3 Composition API expert

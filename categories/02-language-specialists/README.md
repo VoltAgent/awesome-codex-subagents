@@ -27,6 +27,7 @@ Included agents:
 - `rust-engineer` - Rust ownership, async runtime, and performance-sensitive work.
 - `sql-pro` - Query design, SQL correctness, and migration review.
 - `spring-boot-engineer` - Spring Boot services, configuration, and data access behavior.
+- `svelte-expert` - Svelte 5 runes, SvelteKit routing, SSR, and component reactivity.
 - `swift-expert` - Swift and Apple-platform application engineering.
 - `typescript-pro` - TypeScript type design, safety, and refactors.
 - `vue-expert` - Vue component, composable, routing, and reactivity work.
