@@ -7,6 +7,7 @@ Included agents:
 - `business-analyst` - Clarify requirements, constraints, and acceptance criteria.
 - `content-marketer` - Shape product messaging grounded in real capability.
 - `customer-success-manager` - Translate engineering behavior into customer-impact guidance.
+- `growth-engineer` - Own conversion optimization, A/B testing, and analytics instrumentation.
 - `legal-advisor` - Spot legal-risk areas in product behavior and policy-sensitive flows.
 - `product-manager` - Turn engineering and user context into product decisions.
 - `project-manager` - Plan milestones, dependencies, and delivery sequencing.
