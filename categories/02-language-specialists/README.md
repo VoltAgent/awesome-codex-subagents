@@ -5,6 +5,7 @@ Language and framework specialists for ecosystem-specific implementation, debugg
 Included agents:
 
 - `angular-architect` - Angular architecture, routing, DI, and component behavior.
+- `astro-developer` - Astro islands architecture, content collections, and hybrid rendering.
 - `cpp-pro` - C++ systems work with memory, concurrency, and performance sensitivity.
 - `csharp-developer` - C# and .NET service or application implementation.
 - `django-developer` - Django models, views, ORM, auth, and framework behavior.

@@ -4,7 +4,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 136+ Codex subagents across 10 categories.</strong>
+    <strong>The awesome collection of 137+ Codex subagents across 10 categories.</strong>
     <br />
     <br />
 </div>
@@ -13,7 +13,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-136-blue?style=flat-square)
+![Subagent Count](https://img.shields.io/badge/subagents-137-blue?style=flat-square)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 </div>
@@ -117,6 +117,7 @@ Essential development subagents for everyday coding tasks.
 
 Language-specific experts with deep framework knowledge.
 - [**angular-architect**](categories/02-language-specialists/angular-architect.toml) - Angular 15+ enterprise patterns expert
+- [**astro-developer**](categories/02-language-specialists/astro-developer.toml) - Astro islands architecture and content site specialist
 - [**cpp-pro**](categories/02-language-specialists/cpp-pro.toml) - C++ performance expert
 - [**csharp-developer**](categories/02-language-specialists/csharp-developer.toml) - .NET ecosystem specialist
 - [**django-developer**](categories/02-language-specialists/django-developer.toml) - Django 4+ web development expert
