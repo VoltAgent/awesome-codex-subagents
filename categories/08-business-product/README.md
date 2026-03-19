@@ -12,6 +12,7 @@ Included agents:
 - `project-manager` - Plan milestones, dependencies, and delivery sequencing.
 - `sales-engineer` - Provide technically accurate customer-facing solution guidance.
 - `scrum-master` - Improve engineering process without adding unnecessary overhead.
+- `social-media-strategist` - Platform-aware social content strategy and engagement optimization.
 - `technical-writer` - Draft clear release notes, migration notes, and technical docs.
 - `ux-researcher` - Turn product feedback and UI issues into actionable changes.
 - `wordpress-master` - Handle WordPress themes, plugins, and site behavior.
