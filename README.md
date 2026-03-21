@@ -300,6 +300,7 @@ DevOps, cloud, and deployment specialists.
 - [**multi-agent-coordinator**](categories/09-meta-orchestration/multi-agent-coordinator.toml) - Advanced multi-agent orchestration
 - [**performance-monitor**](categories/09-meta-orchestration/performance-monitor.toml) - Agent performance optimization
 - [**pied-piper**](https://github.com/sathish316/pied-piper/) - Orchestrate Team of AI Subagents for repetitive SDLC workflows
+- [**skillfold**](https://github.com/byronxlg/skillfold) - Pipeline compiler: compile a YAML config into Codex subagent files and 10 other platform formats (Claude Code, Cursor, Copilot, Gemini, and more)
 - [**task-distributor**](categories/09-meta-orchestration/task-distributor.toml) - Task allocation specialist
 - [**workflow-orchestrator**](categories/09-meta-orchestration/workflow-orchestrator.toml) - Complex workflow automation
 
