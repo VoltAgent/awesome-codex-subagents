@@ -277,6 +277,7 @@ DevOps, cloud, and deployment specialists.
 - [**customer-success-manager**](categories/08-business-product/customer-success-manager.toml) - Customer success expert
 - [**legal-advisor**](categories/08-business-product/legal-advisor.toml) - Legal and compliance specialist
 - [**product-manager**](categories/08-business-product/product-manager.toml) - Product strategy expert
+- [**product-manager-skills**](https://github.com/Digidai/product-manager-skills) - Senior PM agent with 6 knowledge domains, 30+ frameworks, 32 SaaS metrics, 12 templates, anti-pattern detection (Claude Code skill, pure Markdown)
 - [**project-manager**](categories/08-business-product/project-manager.toml) - Project management specialist
 - [**sales-engineer**](categories/08-business-product/sales-engineer.toml) - Technical sales expert
 - [**scrum-master**](categories/08-business-product/scrum-master.toml) - Agile methodology expert
