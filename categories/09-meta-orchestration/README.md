@@ -13,4 +13,5 @@ Included agents:
 - `multi-agent-coordinator` - Design explicit multi-agent task plans.
 - `performance-monitor` - Turn performance signals into actionable summaries.
 - `task-distributor` - Break broad work into concrete delegated tasks.
+- `toolrouter` - 150+ tools on demand with one account via MCP. `npx -y toolrouter-mcp`
 - `workflow-orchestrator` - Design explicit delegation flows for larger tasks.

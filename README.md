@@ -301,6 +301,7 @@ DevOps, cloud, and deployment specialists.
 - [**performance-monitor**](categories/09-meta-orchestration/performance-monitor.toml) - Agent performance optimization
 - [**pied-piper**](https://github.com/sathish316/pied-piper/) - Orchestrate Team of AI Subagents for repetitive SDLC workflows
 - [**task-distributor**](categories/09-meta-orchestration/task-distributor.toml) - Task allocation specialist
+- [**toolrouter**](https://toolrouter.com) - Give your Codex agent superpowers — 150+ tools on demand with one account. Competitor research, video production, web search, image generation, security scanning, and more. `npx -y toolrouter-mcp`
 - [**workflow-orchestrator**](categories/09-meta-orchestration/workflow-orchestrator.toml) - Complex workflow automation
 
 </details>
