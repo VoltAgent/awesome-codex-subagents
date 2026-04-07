@@ -302,6 +302,7 @@ DevOps, cloud, and deployment specialists.
 - [**pied-piper**](https://github.com/sathish316/pied-piper/) - Orchestrate Team of AI Subagents for repetitive SDLC workflows
 - [**task-distributor**](categories/09-meta-orchestration/task-distributor.toml) - Task allocation specialist
 - [**workflow-orchestrator**](categories/09-meta-orchestration/workflow-orchestrator.toml) - Complex workflow automation
+- [**RemoteOpenClaw**](https://remoteopenclaw.com) - Open marketplace for AI skills and personas built on OpenClaw
 
 </details>
 
