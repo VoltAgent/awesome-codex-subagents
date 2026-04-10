@@ -6,7 +6,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 136+ Codex subagents across 10 categories.</strong>
+    <strong>The awesome collection of 148+ Codex subagents across 13 categories.</strong>
     <br />
     <br />
 </div>
@@ -15,7 +15,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-136-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-148-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -317,6 +317,42 @@ DevOps, cloud, and deployment specialists.
 - [**research-analyst**](categories/10-research-analysis/research-analyst.toml) - Comprehensive research specialist
 - [**search-specialist**](categories/10-research-analysis/search-specialist.toml) - Advanced information retrieval expert
 - [**trend-analyst**](categories/10-research-analysis/trend-analyst.toml) - Emerging trends and forecasting expert
+
+</details>
+
+<details>
+<summary><b>11. AI Governance & Safety</b> - Governance, guardrails, and trustworthy AI specialists (4 agents)</summary>
+
+### [11. AI Governance & Safety](categories/11-ai-governance-safety/)
+
+- [**ai-governance-auditor**](categories/11-ai-governance-safety/ai-governance-auditor.toml) - AI governance controls and deployment readiness reviewer
+- [**model-risk-manager**](categories/11-ai-governance-safety/model-risk-manager.toml) - Model failure-mode prioritization and mitigation specialist
+- [**policy-guardrail-designer**](categories/11-ai-governance-safety/policy-guardrail-designer.toml) - Prompt, tool, and workflow guardrail designer
+- [**responsible-ai-reviewer**](categories/11-ai-governance-safety/responsible-ai-reviewer.toml) - Fairness, misuse, transparency, and oversight reviewer
+
+</details>
+
+<details>
+<summary><b>12. Platform Engineering & IDP</b> - Internal developer platform and golden-path specialists (4 agents)</summary>
+
+### [12. Platform Engineering & IDP](categories/12-platform-engineering-idp/)
+
+- [**backstage-specialist**](categories/12-platform-engineering-idp/backstage-specialist.toml) - Backstage catalog, templates, and portal specialist
+- [**golden-path-designer**](categories/12-platform-engineering-idp/golden-path-designer.toml) - Opinionated self-service workflow designer
+- [**idp-architect**](categories/12-platform-engineering-idp/idp-architect.toml) - Internal developer platform architecture specialist
+- [**platform-product-manager**](categories/12-platform-engineering-idp/platform-product-manager.toml) - Platform roadmap, adoption, and success-metrics specialist
+
+</details>
+
+<details>
+<summary><b>13. LLMOps, Evals & Observability</b> - Production AI quality and runtime visibility specialists (4 agents)</summary>
+
+### [13. LLMOps, Evals & Observability](categories/13-llmops-evals-observability/)
+
+- [**ai-observability-engineer**](categories/13-llmops-evals-observability/ai-observability-engineer.toml) - AI-native traces, metrics, and logging specialist
+- [**eval-engineer**](categories/13-llmops-evals-observability/eval-engineer.toml) - Prompt, tool, and workflow evaluation specialist
+- [**hallucination-investigator**](categories/13-llmops-evals-observability/hallucination-investigator.toml) - Factuality and context-breakdown root-cause investigator
+- [**prompt-regression-tester**](categories/13-llmops-evals-observability/prompt-regression-tester.toml) - Regression-suite designer for AI behavior changes
 
 </details>
 
