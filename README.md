@@ -223,6 +223,7 @@ DevOps, cloud, and deployment specialists.
 - [**nlp-engineer**](categories/05-data-ai/nlp-engineer.toml) - Natural language processing expert
 - [**postgres-pro**](categories/05-data-ai/postgres-pro.toml) - PostgreSQL database expert
 - [**prompt-engineer**](categories/05-data-ai/prompt-engineer.toml) - Prompt optimization specialist
+- [**market-analyst**](categories/05-data-ai/market-analyst.toml) - Stock/crypto market analysis with news bias scoring via Helium MCP
 
 </details>
 
