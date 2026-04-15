@@ -16,3 +16,4 @@ Included agents:
 - `nlp-engineer` - Build text-heavy retrieval, labeling, and NLP workflows.
 - `postgres-pro` - Handle PostgreSQL-specific schema and planner behavior.
 - `prompt-engineer` - Improve prompts, output contracts, and prompt evaluations.
+- `market-analyst` - Stock/crypto market analysis with bias-aware news intelligence via Helium MCP.
