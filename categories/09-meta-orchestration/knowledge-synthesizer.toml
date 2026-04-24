@@ -1,6 +1,6 @@
 name = "knowledge-synthesizer"
 description = "Use when multiple agents have returned findings and the parent agent needs a distilled, non-redundant synthesis."
-model = "gpt-5.3-codex-spark"
+model = "gpt-5.4-mini"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 developer_instructions = """

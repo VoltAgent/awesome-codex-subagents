@@ -1,6 +1,6 @@
 name = "it-ops-orchestrator"
 description = "Use when a task needs coordinated operational planning across infrastructure, incident response, identity, endpoint, and admin workflows."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

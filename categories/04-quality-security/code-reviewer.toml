@@ -1,6 +1,6 @@
 name = "code-reviewer"
 description = "Use when a task needs a broader code-health review covering maintainability, design clarity, and risky implementation choices in addition to correctness."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

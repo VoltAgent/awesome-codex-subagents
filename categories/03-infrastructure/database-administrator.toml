@@ -1,6 +1,6 @@
 name = "database-administrator"
 description = "Use when a task needs operational database administration review for availability, backups, recovery, permissions, or runtime health."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

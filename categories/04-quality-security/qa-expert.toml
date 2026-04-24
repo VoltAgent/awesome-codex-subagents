@@ -1,6 +1,6 @@
 name = "qa-expert"
 description = "Use when a task needs test strategy, acceptance coverage planning, or risk-based QA guidance for a feature or release."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

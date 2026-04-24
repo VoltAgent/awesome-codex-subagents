@@ -1,6 +1,6 @@
 name = "product-manager"
 description = "Use when a task needs product framing, prioritization, or feature-shaping based on engineering reality and user impact."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

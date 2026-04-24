@@ -1,6 +1,6 @@
 name = "cpp-pro"
 description = "Use when a task needs C++ work involving performance-sensitive code, memory ownership, concurrency, or systems-level integration."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

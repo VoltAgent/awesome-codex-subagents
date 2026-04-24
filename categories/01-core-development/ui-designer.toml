@@ -1,6 +1,6 @@
 name = "ui-designer"
 description = "Use when a task needs concrete UI decisions, interaction design, and implementation-ready design guidance before or during development."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

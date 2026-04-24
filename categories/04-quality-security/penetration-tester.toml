@@ -1,6 +1,6 @@
 name = "penetration-tester"
 description = "Use when a task needs adversarial review of an application path for exploitability, abuse cases, or practical attack surface analysis."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

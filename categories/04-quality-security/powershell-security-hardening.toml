@@ -1,6 +1,6 @@
 name = "powershell-security-hardening"
 description = "Use when a task needs PowerShell-focused hardening across script safety, admin automation, execution controls, or Windows security posture."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

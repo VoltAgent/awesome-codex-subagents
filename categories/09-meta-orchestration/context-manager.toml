@@ -1,6 +1,6 @@
 name = "context-manager"
 description = "Use when a task needs a compact project context summary that other subagents can rely on before deeper work begins."
-model = "gpt-5.3-codex-spark"
+model = "gpt-5.4-mini"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 developer_instructions = """

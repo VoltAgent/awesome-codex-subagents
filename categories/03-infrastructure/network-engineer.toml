@@ -1,6 +1,6 @@
 name = "network-engineer"
 description = "Use when a task needs network-path analysis, service connectivity debugging, load-balancer review, or infrastructure network design input."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
