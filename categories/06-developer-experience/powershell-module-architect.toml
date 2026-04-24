@@ -1,6 +1,6 @@
 name = "powershell-module-architect"
 description = "Use when a task needs PowerShell module structure, command design, packaging, or profile architecture work."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

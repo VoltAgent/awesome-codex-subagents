@@ -1,6 +1,6 @@
 name = "sql-pro"
 description = "Use when a task needs SQL query design, query review, schema-aware debugging, or database migration analysis."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

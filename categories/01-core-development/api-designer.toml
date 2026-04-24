@@ -1,6 +1,6 @@
 name = "api-designer"
 description = "Use when a task needs API contract design, evolution planning, or compatibility review before implementation starts."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

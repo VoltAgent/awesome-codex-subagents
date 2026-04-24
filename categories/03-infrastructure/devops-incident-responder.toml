@@ -1,6 +1,6 @@
 name = "devops-incident-responder"
 description = "Use when a task needs rapid operational triage across CI, deployments, infrastructure automation, and service delivery failures."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

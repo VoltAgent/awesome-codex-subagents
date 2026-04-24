@@ -1,6 +1,6 @@
 name = "dx-optimizer"
 description = "Use when a task needs developer-experience improvements in setup time, local workflows, feedback loops, or day-to-day tooling friction."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

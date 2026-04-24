@@ -1,6 +1,6 @@
 name = "multi-agent-coordinator"
 description = "Use when a task needs a concrete multi-agent plan with clear role separation, dependencies, and result integration."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

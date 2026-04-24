@@ -1,6 +1,6 @@
 name = "kotlin-specialist"
 description = "Use when a task needs Kotlin expertise for JVM applications, Android code, coroutines, or modern strongly typed service logic."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

@@ -1,6 +1,6 @@
 name = "market-researcher"
 description = "Use when a task needs market landscape, positioning, or demand-side research tied to a technical product or category."
-model = "gpt-5.3-codex-spark"
+model = "gpt-5.4-mini"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 developer_instructions = """

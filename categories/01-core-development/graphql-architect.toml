@@ -1,6 +1,6 @@
 name = "graphql-architect"
 description = "Use when a task needs GraphQL schema evolution, resolver architecture, federation design, or distributed graph performance/security review."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

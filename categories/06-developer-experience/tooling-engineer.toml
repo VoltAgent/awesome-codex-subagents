@@ -1,6 +1,6 @@
 name = "tooling-engineer"
 description = "Use when a task needs internal developer tooling, scripts, automation glue, or workflow support utilities."
-model = "gpt-5.3-codex-spark"
+model = "gpt-5.4-mini"
 model_reasoning_effort = "medium"
 sandbox_mode = "workspace-write"
 developer_instructions = """

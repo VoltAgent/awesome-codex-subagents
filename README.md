@@ -82,7 +82,7 @@ Each subagent uses a Codex-native `.toml` format:
 ```toml
 name = "subagent-name"
 description = "When this agent should be invoked"
-model = "gpt-5.3-codex-spark"
+model = "gpt-5.4-mini"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 
@@ -100,8 +100,8 @@ Each subagent includes a `model` field that automatically routes it to the right
 
 | Model | When It's Used | Examples |
 |-------|----------------|----------|
-| `gpt-5.4` | Deep reasoning -- architecture reviews, security audits, financial logic | `security-auditor`, `architect-reviewer`, `fintech-engineer` |
-| `gpt-5.3-codex-spark` | Fast scanning, synthesis, and lighter research tasks | `search-specialist`, `docs-researcher`, `agent-installer` |
+| `gpt-5.5` | Deep reasoning -- architecture reviews, security audits, financial logic | `security-auditor`, `architect-reviewer`, `fintech-engineer` |
+| `gpt-5.4-mini` | Fast scanning, synthesis, and lighter research tasks | `search-specialist`, `docs-researcher`, `agent-installer` |
 
 ### Sandbox Mode Philosophy
 

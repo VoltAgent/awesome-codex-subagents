@@ -1,6 +1,6 @@
 name = "django-developer"
 description = "Use when a task needs Django-specific work across models, views, forms, ORM behavior, or admin and middleware flows."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

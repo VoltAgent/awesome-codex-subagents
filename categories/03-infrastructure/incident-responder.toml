@@ -1,6 +1,6 @@
 name = "incident-responder"
 description = "Use when a task needs broad production incident triage, containment planning, or evidence-driven root cause analysis."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

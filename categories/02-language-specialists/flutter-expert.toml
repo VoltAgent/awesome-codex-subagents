@@ -1,6 +1,6 @@
 name = "flutter-expert"
 description = "Use when a task needs Flutter expertise for widget behavior, state management, rendering issues, or mobile cross-platform implementation."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

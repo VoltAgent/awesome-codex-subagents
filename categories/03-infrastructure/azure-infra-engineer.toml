@@ -1,6 +1,6 @@
 name = "azure-infra-engineer"
 description = "Use when a task needs Azure-specific infrastructure review or implementation across resources, networking, identity, or automation."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

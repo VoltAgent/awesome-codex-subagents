@@ -1,6 +1,6 @@
 name = "machine-learning-engineer"
 description = "Use when a task needs ML system implementation work across training pipelines, feature flow, model serving, or inference integration."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """
