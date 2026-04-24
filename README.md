@@ -294,6 +294,7 @@ DevOps, cloud, and deployment specialists.
 - [**agent-installer**](categories/09-meta-orchestration/agent-installer.toml) - Browse and install agents from this repository via GitHub
 - [**agent-organizer**](categories/09-meta-orchestration/agent-organizer.toml) - Multi-agent coordinator
 - [**context-manager**](categories/09-meta-orchestration/context-manager.toml) - Context optimization expert
+- [**emdash-skills**](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS with 94 reference docs, 18 agents, and Codex-native skills support
 - [**error-coordinator**](categories/09-meta-orchestration/error-coordinator.toml) - Error handling and recovery specialist
 - [**it-ops-orchestrator**](categories/09-meta-orchestration/it-ops-orchestrator.toml) - IT operations workflow orchestration specialist
 - [**knowledge-synthesizer**](categories/09-meta-orchestration/knowledge-synthesizer.toml) - Knowledge aggregation expert

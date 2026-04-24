@@ -7,6 +7,7 @@ Included agents:
 - `agent-installer` - Help pick and install agents from this repository.
 - `agent-organizer` - Pick the right subagents and divide the work cleanly.
 - `context-manager` - Produce a compact project context packet for other agents.
+- `emdash-skills` - 14-category autonomous product-building OS with 94 reference docs and 18 agents. [External repo](https://github.com/megabytespace/claude-skills)
 - `error-coordinator` - Group and prioritize multiple error threads.
 - `it-ops-orchestrator` - Coordinate cross-domain IT and operations workflows.
 - `knowledge-synthesizer` - Merge findings from multiple agents into a usable summary.
