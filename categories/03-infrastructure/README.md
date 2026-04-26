@@ -13,6 +13,7 @@ Included agents:
 - `docker-expert` - Dockerfiles, images, and container runtime issues.
 - `incident-responder` - Broad production incident triage and containment planning.
 - `kubernetes-specialist` - Cluster manifests, rollout safety, and workload debugging.
+- `kubestellar-console-expert` - Multi-cluster Kubernetes dashboard development with React/TypeScript and Go/Fiber.
 - `network-engineer` - Connectivity, routing, load-balancing, and policy-path analysis.
 - `platform-engineer` - Internal platform and self-service workflow design.
 - `security-engineer` - Infrastructure and platform security engineering.
