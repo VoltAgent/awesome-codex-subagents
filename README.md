@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/voltagent-awesome-codex-subagents-badge.png)](https://mseep.ai/app/voltagent-awesome-codex-subagents)
+
 <a href="https://github.com/VoltAgent/voltagent">
     <img width="1500" height="500" alt="codex" src="https://github.com/user-attachments/assets/35f56654-e3e7-4023-a7d5-acd5215455de" />
 </a>
