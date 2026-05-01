@@ -10,6 +10,7 @@ Included agents:
 - `documentation-engineer` - Technical documentation tied to real code changes.
 - `dx-optimizer` - Improve setup, local workflows, and developer feedback loops.
 - `git-workflow-manager` - Improve branching, merge, and release collaboration flow.
+- `harness-migration-auditor` - Audit Claude Code to Codex harness migrations before Codex edits code.
 - `legacy-modernizer` - Plan safe modernization of older code and frameworks.
 - `mcp-developer` - MCP server and client integration work.
 - `powershell-module-architect` - Design reusable PowerShell modules and command layout.
