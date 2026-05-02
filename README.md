@@ -293,6 +293,7 @@ DevOps, cloud, and deployment specialists.
 
 - [**agent-installer**](categories/09-meta-orchestration/agent-installer.toml) - Browse and install agents from this repository via GitHub
 - [**agent-organizer**](categories/09-meta-orchestration/agent-organizer.toml) - Multi-agent coordinator
+- [**claude-skills**](https://github.com/heymegabyte/claude-skills) - 18 specialized subagents (architect, test-writer, deploy-verifier, security-reviewer, visual-qa, performance-profiler, accessibility-auditor, content-writer, completeness-checker, dependency-auditor, migration-agent, incident-responder, computer-use-operator, meta-orchestrator, seo-auditor, cost-estimator, changelog-generator, code-simplifier) that orchestrate in parallel — Codex-native via `.codex/agents/` and `.agents/skills/`. Cross-tool config also drops into Claude Code, Cursor, Copilot, Gemini CLI
 - [**context-manager**](categories/09-meta-orchestration/context-manager.toml) - Context optimization expert
 - [**error-coordinator**](categories/09-meta-orchestration/error-coordinator.toml) - Error handling and recovery specialist
 - [**it-ops-orchestrator**](categories/09-meta-orchestration/it-ops-orchestrator.toml) - IT operations workflow orchestration specialist
