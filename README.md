@@ -287,7 +287,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>09. Meta & Orchestration</b> — Agent coordination and meta-programming (12 agents)</summary>
+<summary><b>09. Meta & Orchestration</b> — Agent coordination and meta-programming (13 agents)</summary>
 
 ### [09. Meta & Orchestration](categories/09-meta-orchestration/)
 
@@ -295,6 +295,7 @@ DevOps, cloud, and deployment specialists.
 - [**agent-organizer**](categories/09-meta-orchestration/agent-organizer.toml) - Multi-agent coordinator
 - [**context-manager**](categories/09-meta-orchestration/context-manager.toml) - Context optimization expert
 - [**error-coordinator**](categories/09-meta-orchestration/error-coordinator.toml) - Error handling and recovery specialist
+- [**harness-migration-auditor**](categories/09-meta-orchestration/harness-migration-auditor.toml) - Audit Claude Code to Codex harness migrations before Codex edits code
 - [**it-ops-orchestrator**](categories/09-meta-orchestration/it-ops-orchestrator.toml) - IT operations workflow orchestration specialist
 - [**knowledge-synthesizer**](categories/09-meta-orchestration/knowledge-synthesizer.toml) - Knowledge aggregation expert
 - [**multi-agent-coordinator**](categories/09-meta-orchestration/multi-agent-coordinator.toml) - Advanced multi-agent orchestration
