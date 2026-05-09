@@ -41,5 +41,6 @@ Do not broaden into unrelated frontend refactors unless explicitly requested by 
 """
 
 [mcp_servers.chrome_devtools]
-url = "http://localhost:3000/mcp"
-startup_timeout_sec = 20
+command = "npx"
+args = ["-y", "chrome-devtools-mcp@latest", "--headless", "--isolated", "--no-usage-statistics"]
+startup_timeout_sec = 60
