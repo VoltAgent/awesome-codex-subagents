@@ -18,6 +18,7 @@ Included agents:
 - `javascript-pro` - JavaScript runtime behavior and application-level implementation.
 - `kotlin-specialist` - Kotlin application work, coroutines, and JVM interoperability.
 - `laravel-specialist` - Laravel routing, Eloquent, queues, and validation flow.
+- `symfony-specialist` - Symfony controllers, services, Doctrine, and security flow.
 - `nextjs-developer` - Next.js routing, rendering modes, and server/client boundaries.
 - `php-pro` - PHP server-side work across frameworks and runtime behavior.
 - `powershell-5.1-expert` - Windows PowerShell 5.1 legacy automation.

@@ -146,6 +146,7 @@ Language-specific experts with deep framework knowledge.
 - [**javascript-pro**](categories/02-language-specialists/javascript-pro.toml) - JavaScript development expert
 - [**kotlin-specialist**](categories/02-language-specialists/kotlin-specialist.toml) - Modern JVM language expert
 - [**laravel-specialist**](categories/02-language-specialists/laravel-specialist.toml) - Laravel 10+ PHP framework expert
+- [**symfony-specialist**](categories/02-language-specialists/symfony-specialist.toml) - Symfony application and Doctrine specialist
 - [**nextjs-developer**](categories/02-language-specialists/nextjs-developer.toml) - Next.js 14+ full-stack specialist
 - [**php-pro**](categories/02-language-specialists/php-pro.toml) - PHP web development expert
 - [**powershell-5.1-expert**](categories/02-language-specialists/powershell-5.1-expert.toml) - Windows PowerShell 5.1 and full .NET Framework automation specialist
