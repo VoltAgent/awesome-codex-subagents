@@ -9,6 +9,7 @@ Included agents:
 - `codebase-orchestrator` - Repo-wide refactor governance with weighted risk, diff previews, and approval gates.
 - `context-manager` - Produce a compact project context packet for other agents.
 - `error-coordinator` - Group and prioritize multiple error threads.
+- `harness-migration-auditor` - Audit Claude Code to Codex migration output before Codex edits code.
 - `it-ops-orchestrator` - Coordinate cross-domain IT and operations workflows.
 - `knowledge-synthesizer` - Merge findings from multiple agents into a usable summary.
 - `multi-agent-coordinator` - Design explicit multi-agent task plans.
