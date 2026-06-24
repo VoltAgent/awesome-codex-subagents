@@ -7,6 +7,7 @@ Included agents:
 - `api-designer` - Design or review API contracts before implementation.
 - `backend-developer` - Own a scoped backend change after the code path is clear.
 - `code-mapper` - Trace the files, entry points, and state transitions behind a behavior.
+- `design-bridge` - Translate a DESIGN.md spec into implementation-ready UI instructions.
 - `electron-pro` - Handle Electron main and renderer process work, packaging, and desktop integration.
 - `frontend-developer` - Own a scoped frontend change after the issue is understood.
 - `fullstack-developer` - Own a bounded end-to-end feature that spans backend and frontend.

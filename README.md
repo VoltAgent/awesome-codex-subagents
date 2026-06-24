@@ -6,7 +6,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 166+ Codex subagents across 13 categories.</strong>
+    <strong>The awesome collection of 171+ Codex subagents across 13 categories.</strong>
     <br />
     <br />
 </div>
@@ -15,7 +15,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-166-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-171-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -98,6 +98,32 @@ Each subagent's `sandbox_mode` field controls filesystem access:
 - **Workspace-write agents** (developers, engineers): `sandbox_mode = "workspace-write"` - create and modify files
 
 
+## Sponsors
+
+<br/>
+
+<a href="https://launchkit.getdesign.md/">
+<img src="https://cdn.voltagent.dev/awesome-repo/launchkit-banner-3.png" alt="launchkit"  /><br/>
+</a>
+
+<br/>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="100%">
+<h4>👉 You can feature your product here and reach developers using AI coding agents like Claude Code, Codex, Gemini, and more.</h4>
+     
+<a href="https://sponsors.voltagent.dev/#awesome-codex-subagents"><img src="https://img.shields.io/badge/📩_Become_a_Sponsor-Contact_Us-blue?style=for-the-badge&logoColor=white" alt="Become a Sponsor" /></a>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+
 ## Categories
 
 ### [01. Core Development](categories/01-core-development/)
@@ -107,6 +133,7 @@ Essential development subagents for everyday coding tasks.
 - [**api-designer**](categories/01-core-development/api-designer.toml) - REST and GraphQL API architect
 - [**backend-developer**](categories/01-core-development/backend-developer.toml) - Server-side expert for scalable APIs
 - [**code-mapper**](categories/01-core-development/code-mapper.toml) - Code path mapping and ownership boundary analysis
+- [**design-bridge**](categories/01-core-development/design-bridge.toml) - Translates DESIGN.md specs into implementation-ready UI instructions
 - [**electron-pro**](categories/01-core-development/electron-pro.toml) - Desktop application expert
 - [**frontend-developer**](categories/01-core-development/frontend-developer.toml) - UI/UX specialist for React, Vue, and Angular
 - [**fullstack-developer**](categories/01-core-development/fullstack-developer.toml) - End-to-end feature development
@@ -245,7 +272,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>07. Specialized Domains</b> — Domain-specific technology experts (13 agents)</summary>
+<summary><b>07. Specialized Domains</b> — Domain-specific technology experts (14 agents)</summary>
 
 ### [07. Specialized Domains](categories/07-specialized-domains/)
 
@@ -254,6 +281,7 @@ DevOps, cloud, and deployment specialists.
 - [**embedded-systems**](categories/07-specialized-domains/embedded-systems.toml) - Embedded and real-time systems expert
 - [**fintech-engineer**](categories/07-specialized-domains/fintech-engineer.toml) - Financial technology specialist
 - [**game-developer**](categories/07-specialized-domains/game-developer.toml) - Game development expert
+- [**healthcare-admin**](categories/07-specialized-domains/healthcare-admin.toml) - Healthcare administration, revenue cycle, and compliance specialist
 - [**hipaa-compliance**](categories/07-specialized-domains/hipaa-compliance.toml) - HIPAA compliance specialist for healthcare SaaS vendors
 - [**iot-engineer**](categories/07-specialized-domains/iot-engineer.toml) - IoT systems developer
 - [**m365-admin**](categories/07-specialized-domains/m365-admin.toml) - Microsoft 365, Exchange Online, Teams, and SharePoint administration specialist
@@ -310,13 +338,16 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>10. Research & Analysis</b> — Research, search, and analysis specialists (9 agents)</summary>
+<summary><b>10. Research & Analysis</b> — Research, search, and analysis specialists (12 agents)</summary>
 
 ### [10. Research & Analysis](categories/10-research-analysis/)
 
+- [**ab-test-analysis**](categories/10-research-analysis/ab-test-analysis.toml) - A/B test interpretation and ship/no-ship decisions
+- [**cohort-analysis**](categories/10-research-analysis/cohort-analysis.toml) - Retention, cohort behavior, and activation-metric analysis
 - [**competitive-analyst**](categories/10-research-analysis/competitive-analyst.toml) - Competitive intelligence specialist
 - [**data-researcher**](categories/10-research-analysis/data-researcher.toml) - Data discovery and analysis expert
 - [**docs-researcher**](categories/10-research-analysis/docs-researcher.toml) - Documentation-backed API and framework verification
+- [**first-principles-thinking**](categories/10-research-analysis/first-principles-thinking.toml) - Assumption-challenging, first-principles problem solving
 - [**market-researcher**](categories/10-research-analysis/market-researcher.toml) - Market analysis and consumer insights
 - [**project-idea-validator**](categories/10-research-analysis/project-idea-validator.toml) - Brutal idea pressure-tester and go/no-go strategist
 - [**research-analyst**](categories/10-research-analysis/research-analyst.toml) - Comprehensive research specialist

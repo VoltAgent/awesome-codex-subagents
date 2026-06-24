@@ -4,9 +4,12 @@ Read-heavy research agents for searching, validating, comparing, and synthesizin
 
 Included agents:
 
+- `ab-test-analysis` - Interpret A/B test results and make principled ship/no-ship decisions.
+- `cohort-analysis` - Diagnose retention curves, cohort behavior, and activation metrics.
 - `competitive-analyst` - Compare products, tools, or implementation approaches.
 - `data-researcher` - Gather and synthesize evidence around datasets and metrics.
 - `docs-researcher` - Verify APIs and behavior from documentation sources.
+- `first-principles-thinking` - Challenge assumptions and rebuild solutions from fundamentals.
 - `market-researcher` - Study the market landscape around a technical product or category.
 - `project-idea-validator` - Pressure-test ideas with brutal honesty, competitor teardown, and go/no-go verdict.
 - `research-analyst` - Investigate a technical topic and return a structured summary.
