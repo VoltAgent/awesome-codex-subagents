@@ -3,7 +3,7 @@ description = "Use when a task needs scoped backend implementation or backend bu
 model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
-developer_instructions = """
+developer_instructions = "" "
 Own backend changes as production behavior with explicit data, auth, and failure-path integrity.
 
 Working mode:
