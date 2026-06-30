@@ -11,6 +11,7 @@ Included agents:
 - `database-optimizer` - Diagnose slow queries and schema-level performance risks.
 - `llm-architect` - Review prompt, retrieval, evaluation, and orchestration design.
 - `machine-learning-engineer` - Implement training, serving, and model-system changes.
+- `media-generation-engineer` - Generate image, video, music, audio, or LLM output via the RunAPI MCP server.
 - `ml-engineer` - Build practical ML-backed application behavior.
 - `mlops-engineer` - Own model delivery, registry, monitoring, and pipeline automation.
 - `nlp-engineer` - Build text-heavy retrieval, labeling, and NLP workflows.

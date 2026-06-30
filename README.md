@@ -238,7 +238,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (13 agents)</summary>
+<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (14 agents)</summary>
 
 ### [05. Data & AI](categories/05-data-ai/)
 
@@ -249,6 +249,7 @@ DevOps, cloud, and deployment specialists.
 - [**database-optimizer**](categories/05-data-ai/database-optimizer.toml) - Database performance specialist
 - [**llm-architect**](categories/05-data-ai/llm-architect.toml) - Large language model architect
 - [**machine-learning-engineer**](categories/05-data-ai/machine-learning-engineer.toml) - Machine learning systems expert
+- [**media-generation-engineer**](categories/05-data-ai/media-generation-engineer.toml) - Image, video, music, audio, and LLM generation via the RunAPI MCP server
 - [**ml-engineer**](categories/05-data-ai/ml-engineer.toml) - Machine learning specialist
 - [**mlops-engineer**](categories/05-data-ai/mlops-engineer.toml) - MLOps and model deployment expert
 - [**nlp-engineer**](categories/05-data-ai/nlp-engineer.toml) - Natural language processing expert
