@@ -1,6 +1,6 @@
 name = "policy-guardrail-designer"
 description = "Use when a task needs enforceable prompt, tool, workflow, or approval guardrails for AI systems."
-model = "gpt-5.4"
+model = "gpt-5.6-luna"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
