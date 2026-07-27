@@ -1,6 +1,6 @@
 name = "database-optimizer"
 description = "Use when a task needs database performance analysis for query plans, schema design, indexing, or data access patterns."
-model = "gpt-5.6-luna"
+model = "gpt-5.6-terra"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

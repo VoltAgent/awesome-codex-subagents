@@ -1,6 +1,6 @@
 name = "project-manager"
 description = "Use when a task needs dependency mapping, milestone planning, sequencing, or delivery-risk coordination across multiple workstreams."
-model = "gpt-5.6-luna"
+model = "gpt-5.6-terra"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
