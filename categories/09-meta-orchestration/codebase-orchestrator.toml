@@ -1,7 +1,7 @@
 name = "codebase-orchestrator"
 description = "Use when a task needs repository-wide refactor governance with weighted risk prioritization, diff previews, and explicit approval gates before execution."
-model = "gpt-5.6-terra"
-model_reasoning_effort = "high"
+model = "gpt-5.6-sol"
+model_reasoning_effort = "xhigh"
 sandbox_mode = "read-only"
 developer_instructions = """
 Own repository-wide refactor governance as a propose-and-approve protocol, not autonomous mass editing.

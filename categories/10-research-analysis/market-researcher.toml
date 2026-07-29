@@ -1,7 +1,7 @@
 name = "market-researcher"
 description = "Use when a task needs market landscape, positioning, or demand-side research tied to a technical product or category."
 model = "gpt-5.6-terra"
-model_reasoning_effort = "medium"
+model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
 Own market research as practical landscape analysis for technical product decisions.

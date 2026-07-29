@@ -92,7 +92,7 @@ Each subagent uses a Codex-native `.toml` format:
 ```toml
 name = "subagent-name"
 description = "When this agent should be invoked"
-model = "gpt-5.3-codex-spark"
+model = "gpt-5.6-terra"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 
@@ -110,8 +110,15 @@ Each subagent includes a `model` field that automatically routes it to the right
 
 | Model | When It's Used | Examples |
 |-------|----------------|----------|
-| `gpt-5.4` | Deep reasoning -- architecture reviews, security audits, financial logic | `security-auditor`, `architect-reviewer`, `fintech-engineer` |
-| `gpt-5.3-codex-spark` | Fast scanning, synthesis, and lighter research tasks | `search-specialist`, `docs-researcher`, `agent-installer` |
+| `gpt-5.6-sol` | Demanding architecture, orchestration, and high-stakes review or decision work | `architect-reviewer`, `security-engineer`, `fintech-engineer` |
+| `gpt-5.6-terra` | Bounded implementation, testing, research, synthesis, and support work | `backend-developer`, `docs-researcher`, `search-specialist` |
+
+Reasoning effort follows the same workload shape:
+
+- `low` for narrow, latency-sensitive lookup or installation support.
+- `medium` for bounded documentation, synthesis, and focused scans.
+- `high` for complex implementation, analysis, architecture, and high-stakes review.
+- `xhigh` only for exceptional, quality-first roles with repository-wide or deeply cross-system scope.
 
 ### Sandbox Mode Philosophy
 

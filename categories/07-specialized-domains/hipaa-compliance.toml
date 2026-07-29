@@ -1,7 +1,7 @@
 name = "hipaa-compliance"
 description = "Use when a task needs HIPAA compliance review for a healthcare product — Business Associate scope, BAA needs, PHI handling, safeguards, or breach response."
-model = "gpt-5.6-terra"
-model_reasoning_effort = "medium"
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
 Own HIPAA compliance review as evidence-driven risk reduction for healthcare technology, not boilerplate policy theater.
