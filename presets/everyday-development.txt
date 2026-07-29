@@ -1,0 +1,16 @@
+# A focused global set for normal software development.
+categories/01-core-development/code-mapper.toml
+categories/01-core-development/backend-developer.toml
+categories/01-core-development/frontend-developer.toml
+categories/04-quality-security/debugger.toml
+categories/04-quality-security/reviewer.toml
+categories/04-quality-security/test-automator.toml
+categories/06-developer-experience/refactoring-specialist.toml
+categories/06-developer-experience/dependency-manager.toml
+categories/06-developer-experience/git-workflow-manager.toml
+categories/10-research-analysis/docs-researcher.toml
+categories/09-meta-orchestration/graph-context-curator.toml
+categories/09-meta-orchestration/graph-planner.toml
+categories/09-meta-orchestration/graph-router.toml
+categories/09-meta-orchestration/graph-verifier.toml
+categories/09-meta-orchestration/graph-worker.toml

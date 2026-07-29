@@ -6,7 +6,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 171+ Codex subagents across 13 categories.</strong>
+    <strong>The awesome collection of 177+ Codex subagents across 13 categories.</strong>
     <br />
     <br />
 </div>
@@ -15,7 +15,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-171-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-177-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -34,10 +34,44 @@ Use Codex custom agent directories exactly as documented:
 - `~/.codex/agents/` for global agents (available in all projects)
 - `.codex/agents/` for project-specific agents (higher precedence in that repo)
 
-1. Clone this repository.
-2. Copy the `.toml` agent files you want into one of the directories above.
-3. Restart or refresh your Codex session if needed.
-4. Delegate explicitly in prompts (Codex does not auto-spawn custom subagents).
+### Recommended: everyday development preset
+
+Install a focused set of 15 agents globally:
+
+```bash
+./scripts/install.sh
+```
+
+This preset covers codebase mapping, backend and frontend implementation,
+debugging, review, tests, refactoring, dependencies, Git workflows, and
+documentation research. Existing agent files are preserved unless you pass
+`--force`.
+
+The preset also includes a graph-engineering team for dependency-aware planning,
+parallel execution, context curation, routing, and independent verification.
+
+Useful alternatives:
+
+```bash
+# Preview without writing
+./scripts/install.sh --dry-run
+
+# Install the everyday preset only for the current project
+./scripts/install.sh --scope project
+
+# Install the complete collection globally
+./scripts/install.sh --preset all
+```
+
+Restart or refresh your Codex session after installation. Ask Codex explicitly
+to delegate work when you want subagents, for example:
+
+```text
+Have code-mapper trace the affected path, debugger identify the failure,
+and reviewer check the resulting patch. Wait for all agents and summarize.
+```
+
+### Manual installation
 
 Examples:
 ```bash
@@ -92,12 +126,10 @@ Each subagent uses a Codex-native `.toml` format:
 ```toml
 name = "subagent-name"
 description = "When this agent should be invoked"
-model = "gpt-5.3-codex-spark"
+model = "gpt-5.6-terra"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
-
-[instructions]
-text = """
+developer_instructions = """
 You are a [role description and expertise areas]...
 
 [Agent-specific checklists, patterns, and guidelines]...
@@ -110,14 +142,26 @@ Each subagent includes a `model` field that automatically routes it to the right
 
 | Model | When It's Used | Examples |
 |-------|----------------|----------|
-| `gpt-5.4` | Deep reasoning -- architecture reviews, security audits, financial logic | `security-auditor`, `architect-reviewer`, `fintech-engineer` |
-| `gpt-5.3-codex-spark` | Fast scanning, synthesis, and lighter research tasks | `search-specialist`, `docs-researcher`, `agent-installer` |
+| `gpt-5.6-sol` | Frontier coding and deep reasoning -- implementation, architecture, security, and complex debugging | `backend-developer`, `security-auditor`, `architect-reviewer` |
+| `gpt-5.6-terra` | Balanced everyday work -- fast scanning, tests, synthesis, docs, and repository operations | `code-mapper`, `test-automator`, `docs-researcher` |
+
+The routing intentionally preserves two roles instead of pinning every agent to
+the most expensive model. Use `gpt-5.6-sol` where deeper reasoning and
+follow-through matter, and `gpt-5.6-terra` for lighter parallel work.
 
 ### Sandbox Mode Philosophy
 
 Each subagent's `sandbox_mode` field controls filesystem access:
 - **Read-only agents** (reviewers, auditors): `sandbox_mode = "read-only"` - analyze without modifying
 - **Workspace-write agents** (developers, engineers): `sandbox_mode = "workspace-write"` - create and modify files
+
+## Validation
+
+Validate every agent file with Python 3.11 or newer:
+
+```bash
+python3 scripts/validate_agents.py
+```
 
 
 
@@ -318,7 +362,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>09. Meta & Orchestration</b> — Agent coordination and meta-programming (12 agents)</summary>
+<summary><b>09. Meta & Orchestration</b> — Agent coordination and meta-programming (17 agents)</summary>
 
 ### [09. Meta & Orchestration](categories/09-meta-orchestration/)
 
@@ -327,6 +371,11 @@ DevOps, cloud, and deployment specialists.
 - [**codebase-orchestrator**](categories/09-meta-orchestration/codebase-orchestrator.toml) - Repo-wide refactor governance with approval gates
 - [**context-manager**](categories/09-meta-orchestration/context-manager.toml) - Context optimization expert
 - [**error-coordinator**](categories/09-meta-orchestration/error-coordinator.toml) - Error handling and recovery specialist
+- [**graph-context-curator**](categories/09-meta-orchestration/graph-context-curator.toml) - Shared-state compression between graph waves
+- [**graph-planner**](categories/09-meta-orchestration/graph-planner.toml) - Dependency graph and acceptance-criteria designer
+- [**graph-router**](categories/09-meta-orchestration/graph-router.toml) - Ready-node, retry, and blocker routing
+- [**graph-verifier**](categories/09-meta-orchestration/graph-verifier.toml) - Independent node acceptance verifier
+- [**graph-worker**](categories/09-meta-orchestration/graph-worker.toml) - Bounded graph node implementer
 - [**it-ops-orchestrator**](categories/09-meta-orchestration/it-ops-orchestrator.toml) - IT operations workflow orchestration specialist
 - [**knowledge-synthesizer**](categories/09-meta-orchestration/knowledge-synthesizer.toml) - Knowledge aggregation expert
 - [**multi-agent-coordinator**](categories/09-meta-orchestration/multi-agent-coordinator.toml) - Advanced multi-agent orchestration
