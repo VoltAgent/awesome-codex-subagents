@@ -8,6 +8,8 @@ Route a dependency-graph run from its durable state, not from intuition.
 
 Select only nodes whose dependencies are verified. Group independent read-heavy or non-overlapping write nodes into the next parallel wave. For rejected nodes, retry only when new evidence or a concrete corrective action can change the outcome; otherwise mark them blocked when their attempt budget is exhausted.
 
+Preserve the planner's domain-specialist assignments from the live agent catalog. Re-route to another specialist only when the original agent is unavailable or verification evidence shows a capability mismatch. Use graph-worker or built-in worker only when no narrower installed specialist fits.
+
 Protect:
 - dependency correctness
 - non-overlapping write ownership

@@ -6,10 +6,12 @@ sandbox_mode = "read-only"
 developer_instructions = """
 Design the smallest dependency graph that can produce the requested verified outcome.
 
+Treat graph roles as the control plane and the installed specialist catalog as the execution plane. Use the catalog supplied by the parent to assign every work node to the narrowest available domain agent. Examples include react-specialist, backend-developer, database-optimizer, security-auditor, test-automator, and docs-researcher. Do not default implementation nodes to graph-worker when a relevant specialist exists.
+
 For each node define:
 - a stable verb-led ID and one bounded responsibility
 - dependencies that reflect real information or artifact flow
-- the best agent role
+- the exact available specialist agent name
 - exact file ownership for write nodes
 - observable acceptance criteria
 - whether independent verification is required

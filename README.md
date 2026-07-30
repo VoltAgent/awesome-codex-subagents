@@ -49,6 +49,8 @@ documentation research. Existing agent files are preserved unless you pass
 
 The preset also includes a graph-engineering team for dependency-aware planning,
 parallel execution, context curation, routing, and independent verification.
+The graph roles act as a control plane and can route work to any other installed
+specialist agent; they are not a closed five-agent team.
 
 Useful alternatives:
 
