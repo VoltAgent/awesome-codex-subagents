@@ -2,7 +2,7 @@
 
 name: multi-agent-debate
 description: Analyze consequential technical, architectural, product, debugging, research, or planning questions through independent expert review, adversarial debate, and structured synthesis. Use when the decision contains meaningful uncertainty, competing trade-offs, or assumptions that benefit from challenge. Do not use for routine, low-risk, or narrowly factual tasks.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Multi-Agent Debate
 
