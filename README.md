@@ -6,7 +6,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 171+ Codex subagents across 13 categories.</strong>
+    <strong>The awesome collection of 172+ Codex subagents across 13 categories.</strong>
     <br />
     <br />
 </div>
@@ -15,7 +15,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-171-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-172-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -272,7 +272,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>07. Specialized Domains</b> — Domain-specific technology experts (14 agents)</summary>
+<summary><b>07. Specialized Domains</b> — Domain-specific technology experts (15 agents)</summary>
 
 ### [07. Specialized Domains](categories/07-specialized-domains/)
 
@@ -290,6 +290,7 @@ DevOps, cloud, and deployment specialists.
 - [**quant-analyst**](categories/07-specialized-domains/quant-analyst.toml) - Quantitative analysis specialist
 - [**risk-manager**](categories/07-specialized-domains/risk-manager.toml) - Risk assessment and management expert
 - [**seo-specialist**](categories/07-specialized-domains/seo-specialist.toml) - Search engine optimization expert
+- [**x-api-integration**](categories/07-specialized-domains/x-api-integration.toml) - X/Twitter API integration specialist
 
 </details>
 

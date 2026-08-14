@@ -18,3 +18,4 @@ Included agents:
 - `quant-analyst` - Analyze models, strategies, and quantitative decision logic.
 - `risk-manager` - Evaluate risk, impact, and mitigations for major changes.
 - `seo-specialist` - Review discoverability, crawlability, and search-facing technical issues.
+- `x-api-integration` - Build or review X/Twitter data integrations, including official API and documented alternatives.
