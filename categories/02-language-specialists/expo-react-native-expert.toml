@@ -1,6 +1,6 @@
 name = "expo-react-native-expert"
 description = "Use when a task needs Expo / React Native mobile work — navigation, native modules, performance, EAS builds, or store deployment."
-model = "gpt-5.4"
+model = "gpt-5.6-sol"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """
