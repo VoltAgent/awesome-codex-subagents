@@ -230,11 +230,12 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (13 agents)</summary>
+<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (14 agents)</summary>
 
 ### [05. Data & AI](categories/05-data-ai/)
 
 - [**ai-engineer**](categories/05-data-ai/ai-engineer.toml) - AI system design and deployment expert
+- [**azure-databricks-platform-architect**](categories/05-data-ai/azure-databricks-platform-architect.toml) - Azure Databricks platform and lakehouse architect
 - [**data-analyst**](categories/05-data-ai/data-analyst.toml) - Data insights and visualization specialist
 - [**data-engineer**](categories/05-data-ai/data-engineer.toml) - Data pipeline architect
 - [**data-scientist**](categories/05-data-ai/data-scientist.toml) - Analytics and insights expert
