@@ -6,7 +6,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 171+ Codex subagents across 13 categories.</strong>
+    <strong>The awesome collection of 172+ Codex subagents across 13 categories.</strong>
     <br />
     <br />
 </div>
@@ -15,7 +15,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-171-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-172-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -296,7 +296,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>08. Business & Product</b> — Product management and business analysis (16 agents)</summary>
+<summary><b>08. Business & Product</b> — Product management and business analysis (17 agents)</summary>
 
 ### [08. Business & Product](categories/08-business-product/)
 
@@ -311,6 +311,7 @@ DevOps, cloud, and deployment specialists.
 - [**license-engineer**](categories/08-business-product/license-engineer.toml) - Software licensing and compliance systems specialist
 - [**product-manager**](categories/08-business-product/product-manager.toml) - Product strategy expert
 - [**project-manager**](categories/08-business-product/project-manager.toml) - Project management specialist
+- [**resume-refiner**](categories/08-business-product/resume-refiner.toml) - Resume, CV, and LinkedIn profile optimization specialist
 - [**sales-engineer**](categories/08-business-product/sales-engineer.toml) - Technical sales expert
 - [**scrum-master**](categories/08-business-product/scrum-master.toml) - Agile methodology expert
 - [**technical-writer**](categories/08-business-product/technical-writer.toml) - Technical documentation specialist
