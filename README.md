@@ -52,6 +52,17 @@ cp categories/04-quality-security/reviewer.toml .codex/agents/
 
 If you use agent configuration in Codex, keep it in `.codex/config.toml` under `[agents]` as described in the official docs.
 
+### Included Codex Skills
+
+This repository also includes reusable Codex skills. Their canonical definitions live under [`skills/`](skills/); link them into `${CODEX_HOME:-$HOME/.codex}/skills/` so the repository remains the change-controlled source of truth.
+
+| Skill | Description |
+|------|-------------|
+| [**llm-wiki**](skills/llm-wiki/) | Builds and maintains a persistent, interlinked Markdown knowledge base with provenance, lifecycle, linting, and optional graph/search extensions. |
+| [**multi-agent-debate**](skills/multi-agent-debate/) | Analyzes consequential decisions through independent expert review, adversarial debate, and structured synthesis. |
+
+See the [skills guide](skills/README.md) for the repository-wide linking convention. For `llm-wiki`, including cross-machine setup, updates, verification, and usage examples, see its [installation guide](skills/llm-wiki/README.md).
+
 
 ## Sponsors
 
