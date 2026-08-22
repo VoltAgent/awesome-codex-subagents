@@ -1,0 +1,4 @@
+interface:
+  display_name: "Council of Subagents Debate"
+  short_description: "Stress-test decisions through expert debate"
+  default_prompt: "Use $multi-agent-debate to evaluate this consequential decision with independent experts and adversarial synthesis."

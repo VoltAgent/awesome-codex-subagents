@@ -17,9 +17,10 @@ When `CODEX_HOME` is unset, Codex uses `~/.codex`.
 From the repository root:
 
 ```bash
+skill_name="multi-agent-debate" # or llm-wiki
 skills_dir="${CODEX_HOME:-$HOME/.codex}/skills"
 mkdir -p "$skills_dir"
-ln -s "$PWD/skills/llm-wiki" "$skills_dir/llm-wiki"
+ln -s "$PWD/skills/$skill_name" "$skills_dir/$skill_name"
 ```
 
 The destination must not already exist. If it contains an older copied installation, preserve or review that directory before replacing it with the link.
@@ -29,11 +30,12 @@ The destination must not already exist. If it contains an older copied installat
 From the repository root, create a directory junction:
 
 ```powershell
+$SkillName = "multi-agent-debate" # or llm-wiki
 $CodexRoot = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME ".codex" }
 $SkillsDir = Join-Path $CodexRoot "skills"
-$RepoSkill = (Resolve-Path "skills/llm-wiki").Path
+$RepoSkill = (Resolve-Path (Join-Path "skills" $SkillName)).Path
 New-Item -ItemType Directory -Force $SkillsDir | Out-Null
-New-Item -ItemType Junction -Path (Join-Path $SkillsDir "llm-wiki") -Target $RepoSkill
+New-Item -ItemType Junction -Path (Join-Path $SkillsDir $SkillName) -Target $RepoSkill
 ```
 
 ## Updating
@@ -49,4 +51,4 @@ The installed skill updates immediately because Codex resolves the link to the r
 ## Available skills
 
 - [`llm-wiki`](llm-wiki/) — persistent, compounding Markdown knowledge bases. See its [README](llm-wiki/README.md) for complete installation and usage instructions.
-- [`multi-agent-debate`](multi-agent-debate/) — independent expert analysis, adversarial debate, and structured synthesis.
+- [`multi-agent-debate`](multi-agent-debate/) — a council of independent experts for adversarial debate and structured synthesis. See its [README](multi-agent-debate/README.md) for installation and usage instructions.
