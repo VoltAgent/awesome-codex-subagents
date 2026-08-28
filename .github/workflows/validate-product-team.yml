@@ -1,0 +1,14 @@
+name: Validate product team
+on:
+  pull_request:
+    paths: ['teams/product-engineering/**', 'scripts/validate-product-team.py', '.github/workflows/validate-product-team.yml']
+  push:
+    paths: ['teams/product-engineering/**', 'scripts/validate-product-team.py', '.github/workflows/validate-product-team.yml']
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 scripts/validate-product-team.py

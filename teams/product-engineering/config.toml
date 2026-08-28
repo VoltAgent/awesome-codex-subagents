@@ -1,0 +1,10 @@
+# The primary Codex thread is the engineering lead: frontier judgment with low reasoning cost.
+model = "gpt-5.6-sol"
+model_reasoning_effort = "low"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 6
+default_subagent_model = "gpt-5.6-luna"
+default_subagent_reasoning_effort = "max"
+interrupt_message = true
