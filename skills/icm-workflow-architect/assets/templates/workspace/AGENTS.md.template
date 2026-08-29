@@ -1,0 +1,28 @@
+# {Workspace Name}
+
+{One sentence: what this workspace does and what leaves it.}
+
+This workspace uses ICM: numbering carries sequence, hierarchy scopes context, and files carry state.
+
+## Where things live
+
+| Path | Purpose |
+|---|---|
+| `CONTEXT.md` | Route map and pipeline status contract |
+| `stages/` | Ordered stage contracts and per-run outputs |
+| `_shared/` | Stable rules used across runs |
+| `_templates/` | Blank starters for repeatable artifacts |
+| `setup/` | One-time factory configuration |
+
+## Route
+
+| Request | Start at |
+|---|---|
+| New run | `stages/01-{name}/CONTEXT.md` |
+| Resume reviewed run | The next stage named in `CONTEXT.md` |
+| Status | Scan the declared output or receipt locations |
+| Setup | `setup/questionnaire.md` |
+
+## Boundary
+
+Nothing moves downstream until the previous artifact passes its Human Check. Do not load the whole workspace when a stage contract names a smaller context set.

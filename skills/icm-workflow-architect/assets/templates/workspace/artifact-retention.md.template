@@ -1,0 +1,7 @@
+# Artifact Retention
+
+| Artifact | Location | Contains sensitive data? | Source of truth after publish | Retention |
+|---|---|---|---|---|
+| {artifact} | `{path}` | {yes/no and category} | {repository or external system} | {commit/ignore/archive/delete with authorization} |
+
+Never store credentials or secret values in artifacts. Redact unnecessary personal data. Preserve the external identifier and a non-sensitive receipt when the published system becomes authoritative.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ICM Workflow Architect"
+  short_description: "Turn prompts into repo-owned ICM workflows"
+  default_prompt: "Use $icm-workflow-architect to formalize this recurring workflow as a repo-controlled ICM structure."

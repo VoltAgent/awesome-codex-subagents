@@ -1,0 +1,14 @@
+# Setup Questionnaire
+
+Configure stable factory choices once. Ask all applicable questions in one pass. Do not ask for per-run topic, scope, or identifiers here.
+
+1. Who owns this workflow and what is the final definition of done?
+2. Which stable schemas, policies, style guides, or templates govern every run?
+3. What does a human always verify at each handoff?
+4. Which tools are read-only, and which can mutate external state?
+5. What authorization is required before each mutation?
+6. Which credential interfaces are approved? Name variables or providers, never values.
+7. Where do per-run artifacts live, and are they committed, ignored, archived, or removed after publication?
+8. Which optional stages should be omitted when their prerequisites do not apply?
+
+Write answers into `_shared/` reference files. Verify that no setup placeholders remain afterward.

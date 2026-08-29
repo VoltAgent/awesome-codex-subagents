@@ -1,0 +1,12 @@
+# {Workflow Name}
+
+The flow in one line: {stage 1} -> {stage 2} -> {final artifact or external receipt}.
+
+| Stage | One job | Working input | Output | Human check |
+|---|---|---|---|---|
+| `01-{name}` | {job} | {input} | `output/{run-slug}-{artifact}.md` | {decision} |
+| `02-{name}` | {job} | Stage 01 output | `output/{run-slug}-{artifact}.md` | {decision} |
+
+Stable factory: `_shared/` and stage `references/`.
+
+Per-run product: stage `output/` artifacts. Retention policy: `_shared/artifact-retention.md`.

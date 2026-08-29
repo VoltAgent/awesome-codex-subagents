@@ -1,0 +1,31 @@
+# {NN}-{stage-name}
+
+One job: {single transformation}.
+
+## Inputs
+
+- Working: `{exact path or documented run-slug pattern}`
+- Reference: `{exact relative path}`
+- Do not load: {likely irrelevant context}
+
+## Process
+
+1. Read only the declared inputs.
+2. {Perform the transformation.}
+3. {Verify the hard limit or provenance rule.}
+
+## Audit
+
+| Check | Pass condition |
+|---|---|
+| {name} | {observable pass condition} |
+
+Delete the Audit section only when a failed stage cannot meaningfully contaminate downstream work.
+
+## Outputs
+
+- `output/{run-slug}-{artifact}.md`
+
+## Human Check
+
+{One concrete action and decision. State what approval unlocks next.}
