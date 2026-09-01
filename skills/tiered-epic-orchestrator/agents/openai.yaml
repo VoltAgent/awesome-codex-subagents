@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tiered Epic Orchestrator"
+  short_description: "Execute complex epics in bounded dependency waves"
+  default_prompt: "Use $tiered-epic-orchestrator to plan and deliver this ticketed epic with bounded Sol, Terra, and Luna agents."

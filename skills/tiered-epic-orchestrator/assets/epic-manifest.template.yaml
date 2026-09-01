@@ -1,0 +1,113 @@
+schema_version: 1
+state: "intake"
+
+epic:
+  id: "EPIC-ID"
+  title: "Epic title"
+  source_tickets: []
+  objective: "Observable integrated outcome"
+  in_scope: []
+  out_of_scope: []
+  acceptance_criteria: []
+  nonfunctional_requirements: []
+  risk_class: "routine | complex | high-consequence"
+
+run:
+  plan_version: 1
+  baseline_revision: "REVISION"
+  integration_revision: "REVISION"
+  root_model: "gpt-5.6-sol"
+  root_reasoning_effort: "high"
+  effective_sandbox: "SESSION-SANDBOX"
+  state_owner: "root"
+  started_at: "YYYY-MM-DDTHH:MM:SSZ"
+  limits:
+    max_active_children: 4
+    max_task_workers: 3
+    max_transient_retries_per_packet: 1
+
+permissions:
+  external_mutations: "not-authorized | authorized-with-scope"
+  destructive_actions: "not-authorized | authorized-with-scope"
+  durable_manifest_path: "PATH-OR-THREAD-STATE"
+
+assumptions: []
+decisions: []
+evidence: []
+planner_challenges: []
+
+graph:
+  nodes: ["P-001"]
+  edges: []
+
+waves:
+  - id: "W-01"
+    packets: ["P-001"]
+    state: "planned"
+
+packets:
+  - id: "P-001"
+    tickets: []
+    state: "planned"
+    plan_version: 1
+    base_revision: "REVISION"
+    objective: "One bounded, observable outcome"
+    non_goals: []
+    preconditions: []
+    assumptions: []
+    dependencies: []
+    contracts:
+      consumes: []
+      produces: []
+    owner:
+      role: "ROLE"
+      model: "MODEL-ID"
+      reasoning_effort: "REASONING-EFFORT"
+      effective_sandbox: "SANDBOX-MODE"
+      workspace: "WORKSPACE-IDENTITY"
+    mutable_scope: []
+    forbidden_scope: []
+    generated_artifacts: []
+    test_resources: []
+    acceptance_criteria: []
+    verification_commands: []
+    escalation_conditions: []
+    rollback_or_recovery: ""
+    expected_receipt:
+      outcomes: ["complete", "blocked", "failed", "plan_drift"]
+      require_changed_or_inspected_scope: true
+      require_check_results: true
+      require_contract_changes: true
+      require_unresolved_items: true
+    receipt:
+      reported_status: null
+      effective_model: null
+      effective_reasoning_effort: null
+      effective_sandbox: null
+      changed_or_inspected_scope: []
+      checks: []
+      contract_changes: []
+      new_dependencies: []
+      unresolved: []
+      scope_deviation: false
+    integration:
+      status: "not-queued"
+      accepted_revision: null
+
+active_children: []
+
+integration_queue: []
+
+verification:
+  criterion_evidence: []
+  commands: []
+  unresolved_flakes: []
+  residual_risks: []
+
+event_log: []
+
+completion:
+  eligible: false
+  decided_by: "root"
+  decided_at: null
+  reason: "Acceptance evidence is incomplete."

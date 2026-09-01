@@ -17,7 +17,7 @@ When `CODEX_HOME` is unset, Codex uses `~/.codex`.
 From the repository root:
 
 ```bash
-skill_name="icm-workflow-architect" # or llm-wiki / multi-agent-debate
+skill_name="icm-workflow-architect" # or llm-wiki / multi-agent-debate / tiered-epic-orchestrator
 skills_dir="${CODEX_HOME:-$HOME/.codex}/skills"
 mkdir -p "$skills_dir"
 ln -s "$PWD/skills/$skill_name" "$skills_dir/$skill_name"
@@ -30,7 +30,7 @@ The destination must not already exist. If it contains an older copied installat
 From the repository root, create a directory junction:
 
 ```powershell
-$SkillName = "icm-workflow-architect" # or llm-wiki / multi-agent-debate
+$SkillName = "icm-workflow-architect" # or llm-wiki / multi-agent-debate / tiered-epic-orchestrator
 $CodexRoot = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME ".codex" }
 $SkillsDir = Join-Path $CodexRoot "skills"
 $RepoSkill = (Resolve-Path (Join-Path "skills" $SkillName)).Path
@@ -53,3 +53,4 @@ The installed skill updates immediately because Codex resolves the link to the r
 - [`icm-workflow-architect`](icm-workflow-architect/) — converts prompts, SOPs, and recurring workflows into repository-controlled ICM structures for Codex.
 - [`llm-wiki`](llm-wiki/) — persistent, compounding Markdown knowledge bases. See its [README](llm-wiki/README.md) for complete installation and usage instructions.
 - [`multi-agent-debate`](multi-agent-debate/) — a council of independent experts for adversarial debate and structured synthesis. See its [README](multi-agent-debate/README.md) for installation and usage instructions.
+- [`tiered-epic-orchestrator`](tiered-epic-orchestrator/) — a Sol-led execution control plane for dependency-aware Terra/Luna delivery of complex epics.

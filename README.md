@@ -61,6 +61,7 @@ This repository also includes reusable Codex skills. Their canonical definitions
 | [**icm-workflow-architect**](skills/icm-workflow-architect/) | Converts prompts, SOPs, and recurring workflows into repository-controlled ICM structures for Codex. |
 | [**llm-wiki**](skills/llm-wiki/) | Builds and maintains a persistent, interlinked Markdown knowledge base with provenance, lifecycle, linting, and optional graph/search extensions. |
 | [**multi-agent-debate**](skills/multi-agent-debate/) | Runs a council of independent subagents to challenge consequential decisions and produce an evidence-weighted synthesis. |
+| [**tiered-epic-orchestrator**](skills/tiered-epic-orchestrator/) | Delivers complex ticketed epics through a Sol control plane and bounded Terra/Luna execution agents. |
 
 See the [skills guide](skills/README.md) for the repository-wide linking convention. For `llm-wiki`, including cross-machine setup, updates, verification, and usage examples, see its [installation guide](skills/llm-wiki/README.md).
 
