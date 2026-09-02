@@ -15,6 +15,7 @@ Included agents:
 - `license-engineer` - Software licensing architecture, dependency compliance, and liability strategy.
 - `product-manager` - Turn engineering and user context into product decisions.
 - `project-manager` - Plan milestones, dependencies, and delivery sequencing.
+- `resume-refiner` - Review and optimize resumes, CVs, and LinkedIn profiles for clarity, impact, and role alignment.
 - `sales-engineer` - Provide technically accurate customer-facing solution guidance.
 - `scrum-master` - Improve engineering process without adding unnecessary overhead.
 - `technical-writer` - Draft clear release notes, migration notes, and technical docs.

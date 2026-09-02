@@ -56,9 +56,9 @@ Avoid:
 
 ## Model and Sandbox Guidance
 
-- Prefer `gpt-5.6-sol` for demanding architecture, orchestration, and high-stakes review or decision roles.
-- Prefer `gpt-5.6-terra` for bounded implementation, testing, research, synthesis, and support roles.
-- Use the lowest adequate reasoning effort: `low` for narrow latency-sensitive work, `medium` for bounded scans and synthesis, `high` for complex work, and `xhigh` only for exceptional quality-first scope.
+- Prefer `gpt-5.6-sol` for deep reasoning, security, architecture, and critical review roles.
+- Prefer `gpt-5.6-terra` for implementation and professional tasks requiring connected analysis or judgment.
+- Prefer `gpt-5.6-luna` for bounded search, extraction, drafting, routing, and lightweight synthesis.
 - Use `read-only` by default for review/research agents.
 - Use `workspace-write` only when the agent must implement changes.
 

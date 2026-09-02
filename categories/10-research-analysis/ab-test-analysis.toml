@@ -1,6 +1,6 @@
 name = "ab-test-analysis"
 description = "Use when a task needs analysis of A/B test results, interpretation of p-values and confidence intervals, statistical significance checks, or a principled ship/no-ship decision."
-model = "gpt-5.6-terra"
+model = "gpt-5.6-sol"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

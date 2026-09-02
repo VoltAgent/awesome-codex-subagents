@@ -5,6 +5,7 @@ Agents for data pipelines, LLM integrations, and database behavior.
 Included agents:
 
 - `ai-engineer` - Build or debug model-backed product flows.
+- `azure-databricks-platform-architect` - Design Azure Databricks lakehouse, governance, compute, security, networking, reliability, and cost architecture.
 - `data-analyst` - Interpret metrics, trends, and analytics outputs for decisions.
 - `data-engineer` - Own scoped ETL, ingestion, or warehouse changes.
 - `data-scientist` - Analyze experiments, statistics, and model-related data questions.

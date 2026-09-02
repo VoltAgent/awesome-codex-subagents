@@ -6,7 +6,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 171+ Codex subagents across 13 categories.</strong>
+    <strong>The awesome collection of 172+ Codex subagents across 13 categories.</strong>
     <br />
     <br />
 </div>
@@ -15,7 +15,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-171-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-172-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -70,7 +70,7 @@ See the [skills guide](skills/README.md) for the repository-wide linking convent
 
 |                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                           |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="https://lite.ego.app/?utm_source=awesome-codex-subagents&utm_medium=sponsor&utm_campaign=github-sponsor"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.voltagent.dev/awesome-repo/ego-lite/logo_wordmark_lite_white.svg"><img alt="Ego Lite" src="https://cdn.voltagent.dev/awesome-repo/ego-lite/logo_wordmark_lite_dark.svg" width="425"></picture></a> | [Ego Lite](https://lite.ego.app/?utm_source=awesome-codex-subagents&utm_medium=sponsor&utm_campaign=github-sponsor) is the fastest browser for your AI agents to run browser automation tasks, 3.45x faster than agent-browser (Vercel), always free, no setup, and lets your agents run 100+ browser tasks at the same time in their Spaces. |
+| <a href="https://crawlbase.com/?utm_source=awesome-codex-subagents&utm_medium=sponsorship&utm_campaign=voltagent_2026q3&utm_content=readme_listing"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.voltagent.dev/awesome-repo/crawlbase-new/crawlbase-logo-dark-mode.svg"><img alt="Crawlbase" src="https://cdn.voltagent.dev/awesome-repo/crawlbase-new/crawlbase-logo-light-mode.svg" width="425"></picture></a> | [Crawlbase](https://crawlbase.com/?utm_source=awesome-codex-subagents&utm_medium=sponsorship&utm_campaign=voltagent_2026q3&utm_content=readme_listing) is web data infrastructure trusted by 70,000+ developers. Its Crawling API, MCP server, and integrations give AI agents live access to any webpage — with JavaScript rendering, proxy rotation, and anti-bot protection. |
 
 
 <div align="center">
@@ -105,7 +105,7 @@ Each subagent uses a Codex-native `.toml` format:
 ```toml
 name = "subagent-name"
 description = "When this agent should be invoked"
-model = "gpt-5.6-terra"
+model = "gpt-5.6-luna"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 
@@ -123,15 +123,9 @@ Each subagent includes a `model` field that automatically routes it to the right
 
 | Model | When It's Used | Examples |
 |-------|----------------|----------|
-| `gpt-5.6-sol` | Demanding architecture, orchestration, and high-stakes review or decision work | `architect-reviewer`, `security-engineer`, `fintech-engineer` |
-| `gpt-5.6-terra` | Bounded implementation, testing, research, synthesis, and support work | `backend-developer`, `docs-researcher`, `search-specialist` |
-
-Reasoning effort follows the same workload shape:
-
-- `low` for narrow, latency-sensitive lookup or installation support.
-- `medium` for bounded documentation, synthesis, and focused scans.
-- `high` for complex implementation, analysis, architecture, and high-stakes review.
-- `xhigh` only for exceptional, quality-first roles with repository-wide or deeply cross-system scope.
+| `gpt-5.6-sol` | Deep reasoning -- architecture reviews, security audits, financial logic | `security-auditor`, `architect-reviewer`, `fintech-engineer` |
+| `gpt-5.6-terra` | Implementation, diagnostics, evaluation, and multi-step professional analysis | `docker-expert`, `test-automator`, `scientific-literature-researcher` |
+| `gpt-5.6-luna` | Bounded search, extraction, routing, drafting, and lightweight synthesis | `search-specialist`, `docs-researcher`, `agent-installer` |
 
 ### Sandbox Mode Philosophy
 
@@ -249,11 +243,12 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (13 agents)</summary>
+<summary><b>05. Data & AI</b> — Data engineering, ML, and AI specialists (14 agents)</summary>
 
 ### [05. Data & AI](categories/05-data-ai/)
 
 - [**ai-engineer**](categories/05-data-ai/ai-engineer.toml) - AI system design and deployment expert
+- [**azure-databricks-platform-architect**](categories/05-data-ai/azure-databricks-platform-architect.toml) - Azure Databricks platform and lakehouse architect
 - [**data-analyst**](categories/05-data-ai/data-analyst.toml) - Data insights and visualization specialist
 - [**data-engineer**](categories/05-data-ai/data-engineer.toml) - Data pipeline architect
 - [**data-scientist**](categories/05-data-ai/data-scientist.toml) - Analytics and insights expert
@@ -314,7 +309,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>08. Business & Product</b> — Product management and business analysis (16 agents)</summary>
+<summary><b>08. Business & Product</b> — Product management and business analysis (17 agents)</summary>
 
 ### [08. Business & Product](categories/08-business-product/)
 
@@ -329,6 +324,7 @@ DevOps, cloud, and deployment specialists.
 - [**license-engineer**](categories/08-business-product/license-engineer.toml) - Software licensing and compliance systems specialist
 - [**product-manager**](categories/08-business-product/product-manager.toml) - Product strategy expert
 - [**project-manager**](categories/08-business-product/project-manager.toml) - Project management specialist
+- [**resume-refiner**](categories/08-business-product/resume-refiner.toml) - Resume, CV, and LinkedIn profile optimization specialist
 - [**sales-engineer**](categories/08-business-product/sales-engineer.toml) - Technical sales expert
 - [**scrum-master**](categories/08-business-product/scrum-master.toml) - Agile methodology expert
 - [**technical-writer**](categories/08-business-product/technical-writer.toml) - Technical documentation specialist

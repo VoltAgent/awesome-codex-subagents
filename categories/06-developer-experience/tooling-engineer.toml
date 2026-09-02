@@ -1,7 +1,7 @@
 name = "tooling-engineer"
 description = "Use when a task needs internal developer tooling, scripts, automation glue, or workflow support utilities."
 model = "gpt-5.6-terra"
-model_reasoning_effort = "high"
+model_reasoning_effort = "medium"
 sandbox_mode = "workspace-write"
 developer_instructions = """
 Own developer tooling engineering work as developer productivity and workflow reliability engineering, not checklist execution.

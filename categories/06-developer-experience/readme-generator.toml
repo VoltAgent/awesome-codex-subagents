@@ -1,6 +1,6 @@
 name = "readme-generator"
 description = "Use when a task needs a maintainer-ready README built from exact repository reality, with zero hallucinated commands, flags, or config keys."
-model = "gpt-5.6-terra"
+model = "gpt-5.6-luna"
 model_reasoning_effort = "medium"
 sandbox_mode = "workspace-write"
 developer_instructions = """
