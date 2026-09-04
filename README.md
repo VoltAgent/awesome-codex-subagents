@@ -204,12 +204,13 @@ DevOps, cloud, and deployment specialists.
 - [**windows-infra-admin**](categories/03-infrastructure/windows-infra-admin.toml) - Active Directory, DNS, DHCP, and GPO automation specialist
 
 <details>
-<summary><b>04. Quality & Security</b> — Testing, security, and code quality experts (19 agents)</summary>
+<summary><b>04. Quality & Security</b> — Testing, security, and code quality experts (20 agents)</summary>
 
 ### [04. Quality & Security](categories/04-quality-security/)
 
 - [**accessibility-tester**](categories/04-quality-security/accessibility-tester.toml) - A11y compliance expert
 - [**ad-security-reviewer**](categories/04-quality-security/ad-security-reviewer.toml) - Active Directory security and GPO audit specialist
+- [**agent-qa-tester**](categories/04-quality-security/agent-qa-tester.toml) - Agent QA test authoring, run triage, and scoped repair specialist
 - [**ai-writing-auditor**](categories/04-quality-security/ai-writing-auditor.toml) - AI writing pattern auditor and rewriter
 - [**architect-reviewer**](categories/04-quality-security/architect-reviewer.toml) - Architecture review specialist
 - [**browser-debugger**](categories/04-quality-security/browser-debugger.toml) - Browser-based reproduction and client-side debugging

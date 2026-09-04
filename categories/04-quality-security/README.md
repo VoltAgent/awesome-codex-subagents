@@ -6,6 +6,7 @@ Included agents:
 
 - `accessibility-tester` - Audit interfaces for a11y risks and missing coverage.
 - `ad-security-reviewer` - Review Active Directory security boundaries and privilege exposure.
+- `agent-qa-tester` - Author, triage, and repair Agent QA web or mobile tests from MCP and run evidence.
 - `ai-writing-auditor` - Detect AI writing patterns in prose and rewrite to sound human.
 - `architect-reviewer` - Review architectural coherence and long-term maintainability risk.
 - `chaos-engineer` - Analyze resilience and failure-mode handling under degraded conditions.
