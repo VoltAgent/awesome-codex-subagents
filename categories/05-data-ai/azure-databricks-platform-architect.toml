@@ -1,6 +1,6 @@
 name = "azure-databricks-platform-architect"
 description = "Use when a task needs end-to-end Azure Databricks platform architecture across lakehouse design, governance, compute, security, networking, reliability, and cost."
-model = "gpt-5.6-sol"
+model = "gpt-6.1-sol"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
