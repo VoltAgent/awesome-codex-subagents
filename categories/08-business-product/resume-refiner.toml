@@ -1,6 +1,6 @@
 name = "resume-refiner"
 description = "Use when a task needs a professional resume, CV, or LinkedIn profile reviewed, refined, or optimized for clarity, impact, and role alignment."
-model = "gpt-5.6-terra"
+model = "gpt-6.1-sol"
 model_reasoning_effort = "medium"
 sandbox_mode = "workspace-write"
 developer_instructions = """
