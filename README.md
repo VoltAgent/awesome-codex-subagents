@@ -6,7 +6,7 @@
 <br />
 
 <div align="center">
-    <strong>The awesome collection of 175+ Codex subagents across 13 categories.</strong>
+    <strong>The awesome collection of 176+ Codex subagents across 13 categories.</strong>
     <br />
     <br />
 </div>
@@ -15,7 +15,7 @@
 <div align="center">
     
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-175-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-176-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-codex-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-codex-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 [![Official MCP Servers](https://img.shields.io/badge/Official-MCP%20Servers-c2410c?style=classic&logo=github&logoColor=white&labelColor=24292f)](https://github.com/VoltAgent/official-mcp-servers)
@@ -206,7 +206,7 @@ DevOps, cloud, and deployment specialists.
 - [**windows-infra-admin**](categories/03-infrastructure/windows-infra-admin.toml) - Active Directory, DNS, DHCP, and GPO automation specialist
 
 <details>
-<summary><b>04. Quality & Security</b> — Testing, security, and code quality experts (20 agents)</summary>
+<summary><b>04. Quality & Security</b> — Testing, security, and code quality experts (21 agents)</summary>
 
 ### [04. Quality & Security](categories/04-quality-security/)
 
@@ -224,6 +224,7 @@ DevOps, cloud, and deployment specialists.
 - [**gdpr-ccpa-compliance**](categories/04-quality-security/gdpr-ccpa-compliance.toml) - GDPR and CCPA privacy compliance specialist
 - [**penetration-tester**](categories/04-quality-security/penetration-tester.toml) - Ethical hacking specialist
 - [**performance-engineer**](categories/04-quality-security/performance-engineer.toml) - Performance optimization expert
+- [**ponder-reviewer**](categories/04-quality-security/ponder-reviewer.toml) - Coverage-gated multi-pass deliberation reviewer
 - [**powershell-security-hardening**](categories/04-quality-security/powershell-security-hardening.toml) - PowerShell security hardening and compliance specialist
 - [**qa-expert**](categories/04-quality-security/qa-expert.toml) - Test automation specialist
 - [**reviewer**](categories/04-quality-security/reviewer.toml) - PR-style review for correctness, security, and regressions
