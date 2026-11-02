@@ -18,6 +18,7 @@ Included agents:
 - `gdpr-ccpa-compliance` - GDPR and CCPA/CPRA review of data flows, consent, and rights handling.
 - `penetration-tester` - Review realistic exploitability and attack paths.
 - `performance-engineer` - Investigate latency, throughput, and hot-path regressions.
+- `ponder-reviewer` - Run coverage-gated, multi-pass deliberative reviews across four perspectives before stopping.
 - `powershell-security-hardening` - Harden PowerShell automation and admin scripts.
 - `qa-expert` - Plan risk-based test strategy and coverage.
 - `reviewer` - Review changes for correctness, security, and missing tests.
