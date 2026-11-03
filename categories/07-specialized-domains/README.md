@@ -14,6 +14,7 @@ Included agents:
 - `iot-engineer` - Work on device, telemetry, and edge-cloud coordination.
 - `m365-admin` - Review and guide Microsoft 365 tenant administration.
 - `mobile-app-developer` - Own app-level mobile product flows and release-sensitive behavior.
+- `motion-director` - Direct and render launch-quality 2D/3D motion films, UI walkthroughs, kinetic typography, and deterministic physics with frame-exact 60 FPS video export.
 - `payment-integration` - Review or implement payment flows, idempotency, and webhook handling.
 - `quant-analyst` - Analyze models, strategies, and quantitative decision logic.
 - `risk-manager` - Evaluate risk, impact, and mitigations for major changes.

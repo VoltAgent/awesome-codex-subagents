@@ -293,6 +293,7 @@ DevOps, cloud, and deployment specialists.
 - [**iot-engineer**](categories/07-specialized-domains/iot-engineer.toml) - IoT systems developer
 - [**m365-admin**](categories/07-specialized-domains/m365-admin.toml) - Microsoft 365, Exchange Online, Teams, and SharePoint administration specialist
 - [**mobile-app-developer**](categories/07-specialized-domains/mobile-app-developer.toml) - Mobile application specialist
+- [**motion-director**](categories/07-specialized-domains/motion-director.toml) - 2D/3D motion graphics and deterministic video rendering specialist
 - [**payment-integration**](categories/07-specialized-domains/payment-integration.toml) - Payment systems expert
 - [**quant-analyst**](categories/07-specialized-domains/quant-analyst.toml) - Quantitative analysis specialist
 - [**risk-manager**](categories/07-specialized-domains/risk-manager.toml) - Risk assessment and management expert
