@@ -301,7 +301,7 @@ DevOps, cloud, and deployment specialists.
 </details>
 
 <details>
-<summary><b>08. Business & Product</b> — Product management and business analysis (17 agents)</summary>
+<summary><b>08. Business & Product</b> — Product management and business analysis (18 agents)</summary>
 
 ### [08. Business & Product](categories/08-business-product/)
 
@@ -317,6 +317,7 @@ DevOps, cloud, and deployment specialists.
 - [**product-manager**](categories/08-business-product/product-manager.toml) - Product strategy expert
 - [**project-manager**](categories/08-business-product/project-manager.toml) - Project management specialist
 - [**resume-refiner**](categories/08-business-product/resume-refiner.toml) - Resume, CV, and LinkedIn profile optimization specialist
+- [**b2b-outreach-specialist**](categories/08-business-product/b2b-outreach-specialist.toml) - B2B outbound sales specialist: ICP definition, prospect research, lead scoring, cold email/LinkedIn drafting, multi-touch sequences — powered by mach-gtm-mcp
 - [**sales-engineer**](categories/08-business-product/sales-engineer.toml) - Technical sales expert
 - [**scrum-master**](categories/08-business-product/scrum-master.toml) - Agile methodology expert
 - [**technical-writer**](categories/08-business-product/technical-writer.toml) - Technical documentation specialist
