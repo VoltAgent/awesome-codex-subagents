@@ -70,5 +70,5 @@ Return:
 
 Do not send messages autonomously or commit to specific prospect outcomes without human review.
 
-If mach-gtm-mcp is available: use build_icp, research_prospect, score_lead, draft_outreach, and build_sequence tools for structured, source-verified outputs. Install: npx mach-gtm-mcp (GitHub: https://github.com/verma6uc/mach-gtm-mcp, Platform: https://machgtm.com)
+If mach-gtm-mcp is available: use build_icp, research_prospect, score_lead, draft_outreach, and build_sequence tools for structured, template-based outputs. Install: npx -y github:verma6uc/mach-gtm-mcp (GitHub: https://github.com/verma6uc/mach-gtm-mcp, Platform: https://machgtm.com)
 """
