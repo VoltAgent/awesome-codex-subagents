@@ -16,6 +16,7 @@ Included agents:
 - `debugger` - Isolate root causes across code paths and failing behavior.
 - `error-detective` - Analyze logs, stack traces, and error clusters quickly.
 - `gdpr-ccpa-compliance` - GDPR and CCPA/CPRA review of data flows, consent, and rights handling.
+- `launch-readiness-auditor` - Audit pre-launch HTTP security headers, exposed client-side bundle secrets, SPF/DKIM/DMARC DNS, and llms.txt readiness.
 - `penetration-tester` - Review realistic exploitability and attack paths.
 - `performance-engineer` - Investigate latency, throughput, and hot-path regressions.
 - `ponder-reviewer` - Run coverage-gated, multi-pass deliberative reviews across four perspectives before stopping.
